@@ -3,6 +3,7 @@
 #include "enums.h"
 #include "common_structs.h"
 #include "recompconfig.h"
+#include "repy_api.h"
 
 typedef struct {
     u8  loaded;
