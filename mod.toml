@@ -41,6 +41,14 @@ precision = 1
 percent = false
 default = 10
 
+[[manifest.config_options]]
+id = "real_clock_sync"
+name = "Sync to System clock"
+description = "Syncs the time of day to the System time. Overrides Cycle Length option."
+type = "Enum"
+options = ["Disabled", "Enabled"]
+default = "Disabled"
+
 [inputs]
 elf_path = "build/mod.elf"
 mod_filename = "day_night_cycle"
